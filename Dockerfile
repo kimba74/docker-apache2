@@ -2,7 +2,9 @@ FROM ubuntu:14.04.2
 MAINTAINER Steffen Krause <steffen.krause@soabridge.com>
 
 # Update APT cache, install Apache2, and clean up
-RUN apt-get update && apt-get -y install apache2 && apt-get clean
+RUN apt-get update \
+ && apt-get -y install apache2 curl \
+ && apt-get clean
 
 # Setting Apache2 runtime environment variables
 ENV APACHE_RUN_USER=www-data \
