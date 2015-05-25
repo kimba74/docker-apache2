@@ -13,7 +13,7 @@ ENV APACHE_RUN_USER=www-data \
 
 # Setting the fully qualified domain name for Apache2
 RUN echo "ServerName `hostname`" > /etc/apache2/conf-available/fully-qualified-domain-name.conf \
-    && a2enconf fully-qualified-domain-name
+ && a2enconf fully-qualified-domain-name
 
 # For convenience of packaging new web sites set workdir to /var/www
 WORKDIR /var/www
