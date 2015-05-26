@@ -1,2 +1,5 @@
+# ignore Git related directories and files
 .git
+
+# ignore Docker Build related files
 Dockerfile
