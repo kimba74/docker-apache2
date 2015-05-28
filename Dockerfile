@@ -1,4 +1,4 @@
-FROM ubuntu:14.04.2
+FROM debian:8.0
 MAINTAINER Steffen Krause <steffen.krause@soabridge.com>
 
 # Update APT cache, install Apache2, and clean up
