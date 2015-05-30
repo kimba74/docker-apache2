@@ -7,3 +7,6 @@
 
 # ignore Docker Build related files
 Dockerfile
+
+# ignore container non-related files
+README.md
