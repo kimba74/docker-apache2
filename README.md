@@ -1,3 +1,5 @@
 # Apache2 Docker Container
 
-Build on Debian 8.0
+* Base Image: Debian 8.0
+* Web-Server: Apache2
+* Content Root: /var/www/html
