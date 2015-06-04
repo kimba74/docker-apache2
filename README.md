@@ -2,4 +2,4 @@
 
 * Base Image: Debian 8.0
 * Web-Server: Apache2
-* Content Root: /var/www/html
+* Work Dir: /var/www/html
